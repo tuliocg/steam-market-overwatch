@@ -1,2 +1,2 @@
 # steam-market-overwatch
-Price tracker to items maket prices (CS:GO initially)
+Price tracker to Steam market items (CS:GO initially)
