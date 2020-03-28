@@ -1,3 +1,5 @@
 db/
 constants.py
 venv/
+.env
+env.py

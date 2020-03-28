@@ -12,15 +12,20 @@ class Weapon(Base):
     state_id = Column(Integer)
 
     def __repr__(self):
-        return 'Showing: {name} type {type_id} state {state_id}'.format(name=self.name, type_id=self.type_id, state_id=self.state_id)
+        return '<Weapon : {weapon_name} type {type_id} state {state_id}'.format(self.weapon_name, self.type_id, self.state_id)
 
 class Type(Base):
     __tablename__ = 'type'
     id_ = Column(Integer, primary_key=True)
     type_name = Column(String) 
+    
+    def __repr__(self):
+        return '<Type : {type_name}, id : {id_}'.format(self.type_name, self.id_)
 
 class State(Base):
     __tablename__ = 'state'
     id_ = Column(Integer, primary_key=True)
     state_desc = Column(String)
 
+    def __repr__(self):
+        return '<State : {state_name}}, id : {id_}'.format(self.state_name, self.id_)

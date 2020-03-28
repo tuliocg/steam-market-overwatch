@@ -1,3 +1,6 @@
 db/
 constants.py
 venv/
+.env
+env.py
+__pycache__
