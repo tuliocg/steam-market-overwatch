@@ -1,0 +1,5 @@
+https://github.com/pybites/pytip/blob/master/tasks/import_tweets.py bom
+template para a aplicação
+
+https://realpython.com/building-a-simple-web-app-with-bottle-sqlalchemy-twitter-api/
+post realpython sobre git acima

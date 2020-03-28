@@ -24,3 +24,10 @@ class State(Base):
     id_ = Column(Integer, primary_key=True)
     state_desc = Column(String)
 
+if __name__ =='__main__':
+    session = Session()
+    gun = Weapon(name='AK', type_id=1, state_id=2)
+    session.add(gun)
+    session.commit()
+   
+
