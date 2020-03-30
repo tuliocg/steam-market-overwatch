@@ -3,3 +3,13 @@ template para a aplicação
 
 https://realpython.com/building-a-simple-web-app-with-bottle-sqlalchemy-twitter-api/
 post realpython sobre git acima
+
+env variables at ~/.bash_profile
+
+STEAM API PRICE OVERVIEW
+price_overview: useful for current value on sale
+https://steamcommunity.com/market/priceoverview/?appid=730&currency=7&market_hash_name=StatTrak%E2%84%A2%20M4A1-S%20|%20Hyper%20Beast%20(Minimal%20Wear)
+
+NRT search for historicy values (need to log on steam to do so)
+https://steamcommunity.com/market/pricehistory/?country=US&currency=1&appid=730&market_hash_name=Glove%20Case%20Key
+
